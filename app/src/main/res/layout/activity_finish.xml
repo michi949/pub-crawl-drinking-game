@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="at.fhooe.mc.festly.ActivityFinish">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/activity_finisher_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Festly_Ci"
+            android:gravity="center"
+            android:text="@string/activityfinish_header"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="68dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/acitivtiy_finish_header_name"
+                android:layout_width="191dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/activityfinish_name"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/acitivtiy_finish_header_points"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/activityfinish_points"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/acitivtiy_finish_header_position"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/activityfinish_position"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ListView
+            android:id="@+id/activity_finish_player_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="10px" />
+
+    </LinearLayout>
+</FrameLayout>

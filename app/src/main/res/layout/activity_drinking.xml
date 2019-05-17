@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="at.fhooe.mc.festly.ActivityDrinking">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/activity_drinking_current_bar"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@color/Festly_Ci"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/activity_drinking_countdown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/activity_drinking_button_showloaderboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Festly_Ci"
+            android:text="@string/activitydrinking_leaderboard"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="33dp" />
+
+        <TextView
+            android:id="@+id/activity_drinking_names"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:gravity="center_horizontal"
+            android:text="@string/activitydrinking_names"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/playerbutton_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/Festly_Ci"
+                android:text="Button"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/playerbutton_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/Festly_Ci"
+                android:text="Button"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/playerbutton_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/Festly_Ci"
+                android:text="Button"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/playerbutton_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/Festly_Ci"
+                android:text="Button"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/playerbutton_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/Festly_Ci"
+                android:text="Button"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/playerbutton_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/Festly_Ci"
+                android:text="Button"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/playerbutton_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/Festly_Ci"
+                android:text="Button"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/playerbutton_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/Festly_Ci"
+                android:text="Button"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

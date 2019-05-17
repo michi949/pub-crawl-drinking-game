@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Festly - Pub Games</string>
+    <string name="action_settings">Settings</string>
+    <string name="responsibility_msg_header">Warning!</string>
+    <string name="responsibility_msg_txt">The use of alcohol could cause damage to your body.</string>
+    <string name="toast_player_overflow">8 player limit reached</string>
+    <string name="start_game">Lets Party</string>
+    <string name="main_player">Name</string>
+    <string name="activitylocation_header">Choose your City</string>
+    <string name="activitylocation_header_mode">Or choose a Gamemode</string>
+    <string name="activitylocation_graz">Graz</string>
+    <string name="activitylocation_wien">Wien</string>
+    <string name="activitylocation_linz">Linz</string>
+    <string name="activitymain_emptylist">The List is empty!</string>
+    <string name="activitybar_saufen">Let`s drink</string>
+    <string name="activitybar_showway">Show me the way</string>
+    <string name="activityselection_title">Choose a drink to log in</string>
+    <string name="activitydrinking_timeover">Time is Over!</string>
+    <string name="activityfinish_header">Aaaand the Winner is!</string>
+    <string name="activitydrinking_leaderboard">Leaderboard</string>
+    <string name="activityfinish_currentleader">Current Leaderboard:</string>
+    <string name="activitylocation_preparty">Pre Party Mode</string>
+    <string name="activityfinish_name">Player</string>
+    <string name="activityfinish_position">Position</string>
+    <string name="activityfinish_points">Points</string>
+    <string name="activitydrinking_names">Choose the player to log-in drinks</string>
+
+    <string name="string_beer_hoibe">Beer (0,5 l)</string>
+    <string name="string_beer_seitl">Beer (0,33 l)</string>
+    <string name="string_vodka_bull">Vodka Bull</string>
+    <string name="string_vodka_shot">Vodka Shot</string>
+    <string name="string_vodka_orange">Vodka Orange/Multi</string>
+    <string name="string_hunter">Jaegermeister (0,2)</string>
+    <string name="string_cola_rum">Cola Rum</string>
+    <string name="string_cola_whisky">Cola Whisky</string>
+    <string name="string_tequila">Tequila Shot</string>
+    <string name="string_spritza">Sprayed Wine</string>
+    <string name="string_longisland">Long Island Icetee</string>
+    <string name="string_cocktail">Cocktail</string>
+    <string name="string_gintonic">Gin Tonic</string>
+    <string name="string_captain">Captain Cola</string>
+
+
+</resources>

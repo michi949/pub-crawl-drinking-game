@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Festly_Ci">#1688ae</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="background_dark">#ff000000</color>
+</resources>
